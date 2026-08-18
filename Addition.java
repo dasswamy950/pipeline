@@ -1,13 +1,13 @@
-public class Main {
+public class Addition {
+
     public static void main(String[] args) {
-        // Declare and initialize two numbers
-        int num1 = 10;
-        int num2 = 20;
-        
-        // Add the numbers
-        int sum = num1 + num2;
-        
-        // Print the result
-        System.out.println("The sum is: " + sum);
+        int a = 10;
+        int b = 20;
+
+        int sum = a + b;
+
+        System.out.println("First number: " + a);
+        System.out.println("Second number: " + b);
+        System.out.println("Addition: " + sum);
     }
 }
