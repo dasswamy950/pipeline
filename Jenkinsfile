@@ -8,7 +8,7 @@ pipeline {
    }
      stage('Run'){
        steps{
-         sh 'Addition.java'
+         sh 'Addition'
           }
         }
       }
