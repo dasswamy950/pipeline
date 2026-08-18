@@ -2,7 +2,7 @@ pipeline {
    agent any
    stages{
      steps{
-     sh 'javac Addition.java'
+     sh 'java Addition.java'
       }
      }
      stage('Run'){
