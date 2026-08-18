@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages{
-      stage('compile')
+      stage('compile'){
      steps{
      sh 'java Addition.java'
       }
